@@ -1,16 +1,32 @@
-# eval
+# Flutter App
 
-A new Flutter project.
+## Quick Start
 
-## Getting Started
+### 1. Clone and Setup
+```bash
+git clone <your-repository-url>
+cd <project-name>
+flutter pub get
+```
 
-This project is a starting point for a Flutter application.
+### 2. Run the App
+```bash
+# Development mode
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
+# Release build
+flutter build apk --release
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+- Flutter SDK installed
+- Android Studio or VS Code
+- Connected device or emulator
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Troubleshooting
+If you encounter issues:
+```bash
+flutter clean
+flutter pub get
+flutter doctor
+```
